@@ -1,0 +1,176 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+
+}
+nav{
+  width: 290px;
+  background-color: #fff;
+  position: fixed;
+  height: 100%;
+  padding: 40px 20px 40px 20px;
+  height: calc(100vh - 80px) ;
+}
+
+main{
+  position: relative;
+  
+  left: 330px;
+  width: calc(100% - 410px);
+  padding: 40px 40px 40px 40px;
+  height: calc(100vh - 80px) ;
+  background-color: #f7f6f9;
+}
+.search{
+  display: flex;
+  justify-content: center;
+
+  
+}
+.search input{
+ padding: 6px;
+}
+.search div{
+  background-color: #6c6f70;
+  padding:10px 15px;
+  margin-left: 5px;
+  
+  color: #fff;
+}
+.temperature{
+  background-color: #000;
+  margin:20px auto;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: flex;
+  
+  
+
+}
+.temperature div{
+  background-color: #fff;
+
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: flex;
+  margin: auto;
+  font-size: 25px;
+
+
+}
+
+.temperature div p{
+margin: auto;
+}
+.temperature div p span{
+  font-size: 60px;
+  /* font-weight: 600; */
+  color: #303232;
+
+
+
+  }
+  .hr{
+      width: 95%;
+      height: 0.5px;
+      background-color: #dadddf;
+      margin: 10px auto 20px auto;
+      
+  }
+  .date p{
+     
+     
+      color: #6c6f70;
+     
+  }
+  .date p span{
+      color: #000;
+      font-size: 18px;
+  }
+  .cloud{
+      margin: 10px 0px;
+  }
+  .cloud span{
+      color: #6c6f70;
+      
+  }
+  .map{
+      width: 100%;
+      margin-bottom: 10px;
+  height: 230px;
+     
+      border-radius: 10px;
+      background-image: url(images/map.jpg);
+      background-size: cover;
+      display: flex;
+     
+  }
+  .map p{
+      margin: auto;
+  }
+  .days_week{
+      display: flex;
+     
+  }
+  .day_week{
+      margin-right: 10px;
+display: flex;
+flex-direction: column;
+
+background-color: #fff;
+border-radius: 20px;
+padding: 10px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+
+  }
+  .day_week p{
+margin: auto;
+  }
+  .day_week img{
+      width: 75%;
+      margin: auto;
+  }
+  h3{
+      margin-bottom: 20px;
+  }
+  .info_today{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+  }
+  .info_today_div{
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .info_today div img{
+      width: 40px;
+      height: auto;  
+      margin: auto 0;
+       
+     
+  }
+  .info_today_div div p{
+margin: 5px 0;
+  }
+  .info_today_titre{
+      color: #6c6f70;
+     
+  }
+  .logo{
+    float: right;
+    color: rgb(16, 131, 203);
+    font-weight: 600;
+  }
+  i{
+    margin-right: 10px;
+  }
+  
+
